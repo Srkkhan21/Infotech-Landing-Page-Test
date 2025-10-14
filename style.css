@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Figtree", sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+/* BUTTONS */
+#quote{
+    background-color: #FA1239;
+    color: #ffffff;
+    height: 5.7vh;
+    width: 10.2vw;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 12px rgba(250, 18, 57, 0.58);
+    border: none;
+}
+
+#contact-button{
+    background-color: #FA1239;
+    color: #ffffff;
+    height: 5.7vh;
+    width: 11vw;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 12px rgba(250, 18, 57, 0.58);
+    border: none;
+}
+#resume-button {
+    background-color: #ffffff;
+    color: #FA1239;
+    height: 5.7vh;
+    width: 14vw;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 12px rgba(250, 18, 57, 0.58);
+    border: 1px solid #FA1239;
+}
+
+#what-you-get{
+    width: 10.7vw;
+    height: 5.2vh;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    border-radius: 6px;
+    background: rgba(253, 146, 164, 0.3);
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ACHIVEMENT CARD 1 */
+#rating{
+    height: 14.5vh;
+    width: 24.3vw;
+    background: rgb(241, 237, 237);
+    backdrop-filter: blur(45.5px);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    left: 45vw;
+    top: 73vh;
+    z-index: 10;
+}
+
+
+#ratingNum{
+    height: 9.5vh;
+    width: 7vw;
+    font-family: "Inter", sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    color: #1CB098;
+    line-height: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rating-sub-box {
+    height: 7vh;
+    width: 13.8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#rating img {
+    height: 2vh;
+    width: 7vw;
+    display: flex;
+    align-self: flex-start;
+}
+
+#rating-sub-box span {
+    width: 13.8vw;
+    height: 3.6vh;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #000000;
+}
+
+/* ACHIVEMENT CARD 2 */
+#resume-created {
+    height: 16.5vh;
+    width: 18.8vw;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    left: 71.5vw;
+    top: 91vh;
+    z-index: 11;
+}
+
+#resume-created img {
+    height: 9.9vh;
+    width: 5.5vw;
+}
+#resume-sub-box{
+    height: 9.4vh;
+    width: 8.6vw;
+    gap: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#resume-sub-box span:nth-of-type(1) {
+    height: 4.2vh;
+    width: 8.6vw;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+}
+#resume-sub-box span:nth-of-type(2) {
+    height: 5vh;
+    width: 8.6vw;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #666666;
+}
+
+/* CARDS */
+.card{
+    width: 20.7vw;
+    height: 55.5vh;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    background: #FFFFFF;
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 24px;
+}
+
+.cover {
+    width: 18vw;
+    height: 34.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cover span {
+    width: 16.5vw;
+    height: 7.5vh;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.card p {
+    width: 18vw;
+    height: 11.2vh;
+    color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* HEADINGS */
+#red-text{
+    color: #FA1239;
+}
+/* CONTAINER */
+#container{
+    height: 208vh;          /* base-height: 810px; = 8.1 */
+    max-height: 1683px;     
+    width: 100vw;           /* base-width: 1440; = 14.4*/
+    max-width: 1440px;
+}
+
+/* SECTION 1 */
+
+#section1{
+    height: 113vh;
+    width: 100vw;
+}
+
+/* NAV BAR  */
+
+#navBar{
+    width: 100vw;
+    height: 12.35vh;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#logo{
+    width: 16vw;
+    height: 7.2vh;
+}
+#logo img{
+    width: 16vw;
+    height: 7.2vh;
+}
+
+#navOptions{
+    width: 36vw;
+    height: 5.2vh;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navOptions ul {
+    width: 36vw;
+    height: 5.2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+#navOptions a {
+    text-decoration: none;
+    color: #282828;
+}
+
+/* HERO SECTION  */
+
+#hero{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(261.18deg, #FFE7EB -0.46%, #FFBFCA 100.67%);
+    display: flex;
+    align-self: stretch;
+}
+
+/* TOP LEFT SECTION  */
+
+#left{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#left-content{
+    width: 43vw;
+    height: 63vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#left-content img {
+    width: 25vw;
+    height: 2vh;
+    align-self: stretch;
+    position: relative;
+    top: 28vh;
+}
+#left-content h1 {
+    width: 43vw;
+    height: 31vh;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 78px;
+}
+
+#left-content p {
+    width: 33.5vw;
+    height: 16.8vh;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+#left-buttons{
+    width: 26.5vw;
+    height: 5.6vh;
+}
+/* TOP RIGHT SECTION  */
+#right{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+#right-containt {
+    width: 44vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+/* BACKGROUND CIRCLE  */
+#circle-guide{
+    width: 78vh;
+    height: 78vh;
+}
+#big-circle{
+    width: 78vh;
+    height: 78vh;
+    border-radius: 50%;
+    background-color: #FFCBD4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#small-circle{
+    width: 56vh;
+    height: 56vh;
+    border-radius: 50%;
+    background-color: #FFE4E9;
+}
+#girl-image{
+    width: 35vw;
+    height: 90vh;
+    position: absolute;
+}
+
+#girl-image img {
+    width: 35vw;
+    height: 90vh;
+}
+
+/* SECTION 2*/
+
+#section2{
+    height: 95.5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#containt{
+    width: 90vw;
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#containt h2 {
+    width: 72vw;
+    height: 13.5vh;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+}
+
+#cards{
+    width: 90vw;
+    height: 55.5vh;
+    display: flex;
+    justify-content: space-between;
+
+}
